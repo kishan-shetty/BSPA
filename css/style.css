@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body
+{
+    background-color: #bbbbbb;
+    font-family: 'Montserrat', sans-serif;
+}
+#logo
+{
+    height: 100px;
+}
+
+.slide1 a, .section1 a, .blue-text a
+{
+    text-decoration: none;
+}
+.navbar
+{
+    margin-bottom: 40px;
+}
+
+.navbar-default
+{
+    min-height: 130px;
+    background-color: #ffffff;
+    border-radius: 0px;
+}
+
+.navbar-nav > li > a, .navbar-brand
+{
+    min-height: 100px;
+    line-height: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    transition-duration: 0.2s;
+}
+
+#yo a:hover
+{
+    background-color: #eee;
+}
+
+.bspa-slider
+{
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slide1
+{
+    color: #ffffff;
+    height: 400px;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 80px;
+    font-size: 20px;
+}
+
+#cta-here
+{
+    padding:15px 30px;
+    background-color: #db2027;
+    color: #ffffff;
+    border: none;
+    margin: 20px 0px 0px 0px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.2s;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+#cta-here:hover
+{
+    background-color: rgba(219, 32, 39, 0.8);
+}
+
+.section1
+{
+    margin-top: 40px;
+    background-image: url(../img/sec1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    display: flex;
+    background-attachment: fixed;
+}
+
+.info-text
+{
+    width: 70%;
+    color: #ffffff;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+    text-align: center;
+}
+
+#bspa-ele
+{
+    height: 150px;
+}
+
+#lil-small
+{
+    width: 400px;
+}
+
+.bs-blue
+{
+    background-color: #363893;
+    padding: 30px;
+    color: #ffffff;
+    line-height: 1.8;
+    border-radius: 5px;
+}
+
+.bs-img
+{
+    background-image: url(../img/bg.jpg);
+    height: 280px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+.section3
+{
+    background-color: #ffffff;
+    padding-bottom: 40px;
+}
+
+.section4
+{
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.testimonials
+{
+    background-color: #ffffff;
+}
+
+footer
+{
+    background-color: #b4b4b4;
+    color: #222;
+    padding: 50px;
+}
+
+.social-row i
+{
+    font-size: 30px;
+    padding: 20px 40px 25px 0px;   
+    transition-duration: 0.2s;
+}
+
+.social-row i:hover
+{
+    color: #000;
+}
+
+.ml
+{
+    padding-left: 50px;
+}
