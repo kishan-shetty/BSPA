@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 body
 {
-    background-color: #bbbbbb;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
+
+h2
+{
+    font-weight: 800;
+    text-align: center;
+}
+
 #logo
 {
     height: 100px;
@@ -54,7 +60,7 @@ body
 .slide1
 {
     color: #ffffff;
-    height: 400px;
+    height: 80vh;
     background-image: url(../img/bg.jpg);
     background-size: cover;
     background-position: left;
@@ -83,18 +89,20 @@ body
 
 .section1
 {
-    margin-top: -40px;
-    background-image: url(../img/sec1.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 380px;
-    display: flex;
-    background-attachment: fixed;
+    background-color: #db2027;
+/*    min-height: 300px;*/
+/*    width: 70%;*/
+    padding: 30px 80px;
+    text-align: justify;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .info-text
 {
-    width: 70%;
     color: #ffffff;
     font-size: 18px;
     display: flex;
@@ -293,4 +301,162 @@ footer
     background-color: #fff;
     line-height: 2;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.10);
+}
+
+
+.navbar-nav>li>.dropdown-menu
+{
+/*    width: 200%;*/
+    text-align: center;
+}
+
+.dropdown-menu>li>a
+{
+    padding: 20px;
+}
+
+.bs-left
+{
+/*  background-image: url(../img/bsleft.png);*/
+  background-color: #27ae60;
+  background-size: contain;
+  margin-right: 30px;
+  padding: 30px;
+  color: #fff;
+  background-repeat: no-repeat;
+  font-size: 22px;
+  font-weight: 400;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 1.5;
+
+}
+
+.timeline
+{
+  margin-top: 40px;
+}
+
+.line
+{
+  background-color: #8b1318;
+  width: 4px;
+  height: 2100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -2px;
+}
+
+.circle
+{
+  border-radius: 50%;
+  background-color: #8b1318;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -10px
+}
+
+.bd
+{
+  height: 30px;
+  width: 30px;
+  background-image: url(../img/thatthing.png);
+  float: right;  
+  margin-top: -50px; 
+}
+
+.bdr
+{
+  height: 30px;
+  width: 30px;
+  background-image: url(../img/thatright.png);
+  float: left;  
+  margin-top: -50px;
+  margin-left: -30px;
+}
+
+button
+{
+  background-color: #db2027;
+  border: none;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: #fff;
+  transition-duration: 0.3s;
+  font-weight: 800;
+}
+
+button:hover
+{
+  background-color: #af1a20;
+}
+
+.team
+{
+  background-color: #81c1ef;
+  height: 500px;
+  margin-top: 50px;
+  color: #193666;
+}
+
+.team h2
+{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.t1
+{
+  background-color: #fff;
+  height: 300px;
+  width: 22%;
+  margin-right: 20px;
+}
+
+.bs-flex
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.item
+{
+  width: 22%;
+  height: 300px;
+  text-align: center;
+  background-color: #fff;
+  padding-top: 200px;
+}
+
+.item h4
+{
+  margin-top: -20px;
+}
+
+footer
+{
+  color: #c2c2c2;
+  height: 400px;
+  text-align: center;
+  background-color: #313131;
+}
+
+.bs-social
+{
+  display: flex;
+  justify-content: center;
+}
+
+.sit
+{
+  font-size: 50px;
+  margin: 10px 20px;
+}
+
+footer hr
+{
+  width: 50%;
 }
