@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
 
 body
 {
@@ -590,4 +592,160 @@ footer
 {
   color: #848384;
   font-size: 50px;
+}
+
+.kids
+{
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 30px;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.6;
+/*
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+*/
+  height: 250px;
+}
+
+.kids h3
+{
+  margin-top: 0px;
+  
+}
+
+#active
+{
+  background-image: url(../img/kidsactive.jpg);
+  
+/*
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+*/
+}
+
+.cshadow
+{
+  margin-top: 50px;
+  box-shadow: 0px 0px 15px rgba(123, 123, 123, 0.65);
+}
+
+.cshadow .col-md-4
+{
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+#contemporary
+{
+  background-image: url(../img/contkids.jpg);
+}
+
+#hiphop
+{
+  background-image: url(../img/hiphop.jpg);
+}
+
+#kathak
+{
+  background-image: url(../img/kathak.jpg);
+}
+
+#ballet
+{
+  background-image: url(../img/ballet.jpg);
+}
+
+#gymn
+{
+  background-image: url(../img/gym.jpg);
+}
+
+#taekwondo
+{
+  background-image: url(../img/taek.jpg);
+}
+
+#cs-theatre
+{
+  background-image: url(../img/theatre-bs.jpg);
+}
+
+.redstrip
+{
+  background-color: #db2027;
+  padding: 30px 60px;
+  color: #ffffff;
+font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  text-align: center;
+/*  min-width: 100px;*/
+  
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: inline-block;
+  
+}
+
+.adults
+{
+    background-color: #3f51b5;
+  color: #fff;
+  padding: 30px;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.6;
+  display: inline-block;
+}
+
+.adshadow
+{
+  margin-top: 50px;
+  box-shadow: 0px 0px 15px rgba(123, 123, 123, 0.65);
+  background-color: #3f51b5;
+}
+
+.adshadow .col-md-4
+{
+  background-size: cover;
+  background-position: center;
+/*  height: 510px;*/
+}
+
+#acontemp
+{
+  background-image: url(../img/acont.jpg);
+  height: 510px;
+}
+
+#ahip
+{
+  background-image: url(../img/ahip.jpg);
+  height: 530px;
+}
+
+#belly
+{
+  background-image: url(../img/belly.jpg);
+  height: 270px;
+}
+
+#bolly
+{
+  background-image: url(../img/bolly.JPG);
+  height: 250px;
+}
+
+#ayoga
+{
+  background-image: url(../img/yoga.jpg);
+  height: 230px;
+}
+
+#zumba
+{
+  background-image: url(../img/zumba.jpg);
+  height: 250px;  
 }
