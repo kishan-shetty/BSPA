@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 
 
 body
@@ -563,7 +564,7 @@ footer
 {
   background-color: #191819;
   color: #848384;
-  height: 400px;
+/*  height: 200px;*/
   line-height: 2;
 }
 
@@ -627,6 +628,7 @@ footer
 
 .cshadow
 {
+  border-radius: 15px;
   margin-top: 50px;
   box-shadow: 0px 0px 15px rgba(123, 123, 123, 0.65);
 }
@@ -675,16 +677,12 @@ footer
 
 .redstrip
 {
-  background-color: #db2027;
   padding: 30px 60px;
-  color: #ffffff;
-font-family: 'Great Vibes', cursive;
-  font-size: 40px;
+  color: #333;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  line-height: 2;
   text-align: center;
-/*  min-width: 100px;*/
-  
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
   display: inline-block;
   
 }
@@ -748,4 +746,40 @@ font-family: 'Great Vibes', cursive;
 {
   background-image: url(../img/zumba.jpg);
   height: 250px;  
+}
+
+.ha-left
+{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+
+.ha-right
+{
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.adu-box
+{
+  border-radius: 15px;
+  padding: 30px;
+  background-color: #eeeeee;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 2;
+  display: inline-block;
+}
+
+.adu-box h3
+{
+  margin-top: 0px;
+}
+
+.adu-box img
+{
+  width: 250px;
+  float: left;
+  margin: 10px 30px 0px 0px;
 }
