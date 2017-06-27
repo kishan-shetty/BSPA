@@ -597,23 +597,23 @@ footer
 
 .kids
 {
-  background-color: #3f51b5;
-  color: #fff;
+  background-color: #97c83f;
+  color: #1e2b00;
   padding: 30px;
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
-  line-height: 1.6;
+  line-height: 1.5;
 /*
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 */
-  height: 250px;
+  height: 270px;
 }
 
 .kids h3
 {
   margin-top: 0px;
-  
+  font-weight: 800;
 }
 
 #active
@@ -630,14 +630,14 @@ footer
 {
   border-radius: 15px;
   margin-top: 50px;
-  box-shadow: 0px 0px 15px rgba(123, 123, 123, 0.65);
+  box-shadow: 0px 0px 5px rgba(123, 123, 123, 0.65);
 }
 
 .cshadow .col-md-4
 {
   background-size: cover;
   background-position: center;
-  height: 250px;
+  height: 270px;
 }
 
 #contemporary
@@ -765,16 +765,19 @@ footer
 {
   border-radius: 15px;
   padding: 30px;
-  background-color: #eeeeee;
+  color: #ffffff;
+  background-color: #e05a26;
   margin-top: 20px;
   margin-bottom: 20px;
-  line-height: 2;
+  line-height: 1.5;
+  font-size: 18px;
   display: inline-block;
 }
 
 .adu-box h3
 {
   margin-top: 0px;
+  font-weight: 800;
 }
 
 .adu-box img
