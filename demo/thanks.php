@@ -1,3 +1,15 @@
+<?php
+$to = "kishanshetty17@gmail.com";
+$subject = "BSPA website contact submmission";
+$name = $_POST["name"];
+$email = $_POST["email"];
+$msg = $_POST["message"];
+$txt = "\nName: $name \nEmail: $email \nMessage: $msg";
+$headers = "From: noreply@uncliched.in";
+mail($to,$subject,$txt,$headers);
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -41,7 +53,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               
               
-           <ul id="yo" class="nav navbar-nav navbar-right">
+          <ul id="yo" class="nav navbar-nav navbar-right">
                 <li><a href="index.html">Home</a></li>
                   <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
@@ -51,7 +63,7 @@
                       </ul>
                     </li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="http://bspa.in/wp/events">Events</a></li>
+                <li><a href="http://bspa.in/en/wp/events">Events</a></li>
                 <li><a href="media.html">Media</a></li>
                 <li><a href="contact.html">Contact</a></li>             
               </ul>
@@ -59,94 +71,56 @@
           </div><!-- /.container-fluid -->
       </nav>
 
-      <br>
-          <h2>Courses - Adults</h2>
-    <br>
     
     
-    <div class="container">
-      <center><div class="redstrip">
-        “You were wild once, don’t let them tame you.” <div style="font-family: 'Quicksand', sans-serif; font-size: 16px;"> – Isadora Duncan</div>
-        </div></center>
-      
-      
-      <div class="adu-box adu-l">
-          <h3>Contemporary</h3>
+    
+    
+    
+    
+    <br><br>
+<div class="container">
+    
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Drop us a message</h2>
         
-        <img src="img/acont.jpg">
-<!--        <br>-->
-Contemporary is a modern dance form developed in the mid-twentieth century. It has grown to become a dominant genre in the world. It focuses on the western techniques of contemporary dancing. Our course is customised to ages of 18 onwards.           <br><br>
-          We have two types of courses under Contemporary:<br> <br>
-            <b>Level 1 – Beginners</b><br> 
-Starting out and want to gain the Basics &amp; Core Fundamentals of the art form? This course is perfect for you. 
-<br><br>
-            <b>Level 2 – Advanced</b><br>
-You have the moves and you want to take yourself to the next level. Let us help you bring out your A-Game. 
-<br>
-          
-    </div>
-      
-      <center><div class="redstrip">
-    “The rhythm is in your blood, can you feel it?”<div style="font-family: 'Quicksand', sans-serif; font-size: 16px;"> – Unknown</div>
-        </div></center>
-      
-    
-      
-      <div class="adu-box adu-l">
-          <h3>Hip Hop</h3>
-        <img src="img/ahip.jpg"><br>
-Hip Hop refers to street dance styles primarily performed to hip-hop music or that have evolved as part of the hip-hop culture. Our course is designed for ages of 18 onwards. It focuses on building your grooves, bounce, footwork and style of Hip Hop dancing taught through our choreography model. This takes you through a step by step routine giving you the maximum development. <br><br>
-            We have two types of courses under Hip Hop:<br><br>
- 
-            <b>Level 1 – Beginners</b><br>
-Do you have the passion and energy which is most suited for Hip Hop? Let us help you channel that energy.
- <br><br>
-  <b>Level 2 – Advanced</b><br>
-Your footwork has improved but you think you can kick it up a notch? Hop on. 
-<br>
-    </div>
-  
-      
-      <center><div class="redstrip">
-    “Dance is the conversation between body and soul”<div style="font-family: 'Quicksand', sans-serif; font-size: 16px;"> – Unknown</div>
-        </div></center>
-      
-        <div class="adu-box">
-          <h3>Belly Dance</h3>
-          <img src="img/belly.jpg"><br>
-Belly Dance is an expressive dance which emphasizes complex movements of the torso. Originally a Middle Eastern folk dance, it has evolved to take many different forms depending on the country and region, both in costume and dance style. Our course caters to the age group of 18 onwards.  
-We have a goal oriented course which helps you build on the technique and develop your skills rapidly.
-
-    </div>
-      
-       <center><div class="redstrip">
-       “There are short-cuts to happiness, and dancing is one of them.”<div style="font-family: 'Quicksand', sans-serif; font-size: 16px;"> - Vicki Baum</div>
-        </div></center>
-      
-      <div class="adu-box">
-          <h3>Bollywood</h3>
-        <img src="img/bolly.JPG"><br>
-Bollywood is the dance-form used in the Indian films.  It is a mixture of numerous styles.  These styles include belly-dancing, Kathak, Indian folk, Western popular etc. We will help you get in tune with the famous Indian numbers and the moves for them. Our course is designed for ages of 18 onwards. 
-    </div>
-    
-      
-      
-      
-      
-    
-      
-      
-    </div>
-<!--
-      <div class="team">
-        <div class="container">
-          <h2>Our Team</h2>
-          
-        </div>
+        <br>
+        <div class="form-group">
+			Thank you for sending the message!
+	</div>
+        
+        <form class="form-horizontal" role="form" method="post" action="thanks.php">
+	<div class="form-group">
+		<label for="name">Name</label>
+			<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" value="">
+	</div>
+	<div class="form-group">
+		<label for="email">Email</label>
+			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+	</div>
+	<div class="form-group">
+		<label for="message">Message</label>
+			<textarea class="form-control" rows="4" name="message"></textarea>
+	</div>
+	
+	<div class="form-group">
+			<input id="submit" name="submit" type="submit" value="Send Message" class="button">
+	</div>
+	
+</form>
+        
       </div>
-        
--->
-  <br>
+      <div class="col-md-6">
+        <h2>Our location</h2>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15554.781876429304!2d77.6690899!3d12.927284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a406b6f3ddf0b55!2sBangalore+School+for+Performing+Arts!5e0!3m2!1sen!2sin!4v1498848221718" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+  </div>
+  
+    </div>
+    
+  <br><br>
+    
     <footer>
       <div class="container">
         <div class="row">

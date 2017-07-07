@@ -66,7 +66,7 @@ h2
     height: 80vh;
     background-image: url(../img/bg.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: top;
     padding: 80px;
     font-size: 20px;
 }
@@ -350,7 +350,7 @@ h2
 {
   background-color: #8b1318;
   width: 4px;
-  height: 1780px;
+  height: 1760px;
   position: absolute;
   left: 50%;
   margin-left: -2px;
@@ -916,27 +916,12 @@ footer a:hover
   color: #ddd;
 }
 
-@media (max-width: 600px)
-{
-  #logo
-  {
-    height: 50px;
-  }
-  
-  .navbar-default
-  {
-    min-height: 80px;
-  }
-  
-  .navbar-nav > li > a, .navbar-brand
-  {
-    min-height: 80px;
-    line-height: 0;
-  }
-  
-  .navbar-toggle
-  {
-    margin-top: 20px;
-  }
-  
+.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
 }
