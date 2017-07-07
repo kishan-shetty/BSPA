@@ -941,12 +941,19 @@ li.dropdown:hover > .dropdown-menu {
   .navbar-nav > li > a, .navbar-brand
   {
     min-height: 80px;
-    line-height: 0;
+    line-height: 3;
   }
   
   .navbar-toggle
   {
     margin-top: 20px;
   }
+  
+  .nav>li>a
+  {
+    display: inline;
+  }
+  
+  
   
 }
