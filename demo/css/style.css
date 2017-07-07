@@ -350,10 +350,11 @@ h2
 {
   background-color: #8b1318;
   width: 4px;
-  height: 1760px;
+  height: 2000px;
   position: absolute;
   left: 50%;
   margin-left: -2px;
+  z-index: -1;
 }
 
 .circle
@@ -426,6 +427,11 @@ button:hover
   height: 500px;
   margin-top: 50px;
   color: #ffffff;
+}
+
+.timeline hr
+{
+  display: none;
 }
 
 .team h2
@@ -581,7 +587,6 @@ footer
 {
   background-color: #191819;
   color: #848384;
-/*  height: 200px;*/
   line-height: 2;
 }
 
@@ -905,6 +910,11 @@ a:hover
   text-decoration: none;
 }
 
+.mob-footer
+{
+  display: none;
+}
+
 footer a
 {
   color: inherit;
@@ -928,6 +938,7 @@ li.dropdown:hover > .dropdown-menu {
 
 @media (max-width: 600px)
 {
+
   #logo
   {
     height: 50px;
@@ -941,7 +952,7 @@ li.dropdown:hover > .dropdown-menu {
   .navbar-nav > li > a, .navbar-brand
   {
     min-height: 50px;
-    line-height: 2;
+    line-height: 3;
   }
   
   .navbar-toggle
@@ -954,4 +965,123 @@ li.dropdown:hover > .dropdown-menu {
     border: none;
   }
   
+  .bspa-slider div
+  {
+    height: 40vh;
+  }
+  
+  .slide1, .slide2
+  {
+    padding: 50px;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  h2
+  {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .section1
+  {
+    margin-top: 10px;
+    padding: 20px;
+  }
+  
+  .info-text
+  {
+    font-size: 12px;
+  }
+  
+  .line, .circle, .bd, .bdr
+  {
+    display: none;
+  }
+  
+  .bs-left
+  {
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bs-left button
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #flag, #cool, #dance, #school, #age, #kriya, #theatre, #gym
+  {
+    padding: 0;
+    width: inherit;
+    margin: 20px;
+  }
+  
+  .timeline br
+  {
+    display: none;
+  }
+  
+  #over-v
+  {
+    margin-bottom: -30px;
+  }
+  
+  .timeline hr
+  {
+    display: inherit;
+    height: 3px;
+    background-color: #ccc;
+    border-radius: 10px;
+  }
+  
+  footer
+  {
+    display: none;
+  }
+  
+  .mob-footer
+  {
+    display: inherit;
+    text-align: center;
+    background-color: #191819;
+    color: #848384;
+    line-height: 2;
+  }
+  
+  .mob-footer a
+  {
+    color: inherit;
+  }
+  
+  .mob-footer a:hover
+  {
+    color: #ddd;
+  }
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
