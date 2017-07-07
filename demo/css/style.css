@@ -925,3 +925,28 @@ footer a:hover
 li.dropdown:hover > .dropdown-menu {
     display: block;
 }
+
+@media (max-width: 600px)
+{
+  #logo
+  {
+    height: 50px;
+  }
+  
+  .navbar-default
+  {
+    min-height: 80px;
+  }
+  
+  .navbar-nav > li > a, .navbar-brand
+  {
+    min-height: 80px;
+    line-height: 0;
+  }
+  
+  .navbar-toggle
+  {
+    margin-top: 20px;
+  }
+  
+}
